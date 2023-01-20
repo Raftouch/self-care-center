@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    --light-yellow: #f7e4bf;
+    --light-blue: #78a7c6;
+    --dark-blue: #134d71;
+    --white: #ffffff;
+    --black: #000000;
+}
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background: -moz-linear-gradient(#134d71, #78a7c6, #f7e4bf) no-repeat center/ cover;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    display: grid;
+    align-content: center;
+    overflow: auto;
+}
+h1 {
+    margin: 2rem 0 4rem;
+}
+.self-care-center-type-of-message {
+    font-weight: bold;
+}
+.self-care-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#div-mediate {
+    width: 60%;
+    min-height: 200px;
+    border: 1px solid white;
+    margin: 6rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    color: #134d71;
+    align-items: center;
+    gap: 2rem;
+}
+#div-mediate p {
+    text-align: center;
+}
+.div-message {
+    width: 40%;
+    min-height: 100px;
+    border: 1px solid white;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+button {
+    background-color: #134d71;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+#clear-message {
+    display: none;
+}
+#img-mediate {
+    max-width: 100px; 
+}
+.affirmation-mantra {
+    color: #134d71;
+    display: flex;
+    gap: 80px;
+}
+label {
+    font-style: italic;
+}
+
+
+@media (max-width: 800px) {
+    .affirmation-mantra {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+

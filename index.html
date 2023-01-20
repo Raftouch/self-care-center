@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <section class="self-care-center">
+
+      <h1>&#10024; Self Care Center &#10024;</h1>
+      <p class="self-care-center-type-of-message">Which type of message?</p>
+
+      <div class="div-message">
+        <form class="affirmation-mantra">
+          <div>
+            <input id="affirmation" type="radio" name="check-me" value="affirmation">
+            <label for="affirmation">affirmation</label>
+          </div>
+          <div>
+            <input id="mantra" type="radio" name="check-me" value="mantra">
+            <label for="mantra">mantra</label>
+          </div>
+        </form>
+        <button id="receive-message">Receive Message</button>
+      </div>
+
+      <div id="div-mediate">
+        <p id="message"></p>
+        <img id="img-mediate" src="assets/meditate.svg" alt="img-mediate">
+        <button id="clear-message">Clear Message</button>
+      </div>
+
+    </section>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
